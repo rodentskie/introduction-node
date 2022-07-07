@@ -2,7 +2,7 @@ const { expect, assert } = require("chai");
 
 const { add, subtract, multiply, division, remainder } = require("./index");
 
-describe.only("Arithmetic test suite", () => {
+describe("Arithmetic test suite", () => {
   it("Add.", async () => {
     const { sum } = add(5, 4, 1);
     if (!sum) assert.fail("Error on add function test.");

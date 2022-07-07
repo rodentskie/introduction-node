@@ -3,7 +3,7 @@ const singleLineComment = () => {
 
   // change code from here
 
-  str = "line comment";
+  // str = "line comment";
 
   // until here
 

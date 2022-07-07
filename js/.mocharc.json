@@ -2,7 +2,7 @@
   "colors": true,
   "exit": true,
   "recursive": true,
-  "bail": true,
+  "bail": false,
   "timeout": "3m",
   "spec": "topic/**/*.spec.js"
 }

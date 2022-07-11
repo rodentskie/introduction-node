@@ -24,7 +24,23 @@ const concatString = () => {
   return str;
 };
 
+const stringLength = () => {
+  /**
+   * Count the length of the 'str' variable and store to 'len' variable.
+   *
+   *
+   */
+
+  const str = "I love HTC and JavaScript.";
+  let len = 0;
+
+  len = str.length;
+
+  return len;
+};
+
 module.exports = {
   escapingQuotes,
   concatString,
+  stringLength,
 };

@@ -63,13 +63,16 @@ const recursion = (arr, n) => {
     ([2, 3, 4, 5], 3) = 14;
     
     */
+  let result = 0;
   // Only change code below this line
   if (n <= 0) {
-    return arr[arr.length - 1];
+    result = arr[arr.length - 1];
   } else {
-    return recursion(arr, n - 1) + arr[n - 1];
+    result = recursion(arr, n - 1) + arr[n - 1];
   }
   // Only change code above this line
+
+  return result;
 };
 
 module.exports = {

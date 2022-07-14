@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { ifElse, switchCondition, ternary } = require("./index");
 
-describe.only("Conditions suite", () => {
+describe("Conditions suite", () => {
   it("If else statement.", async () => {
     const first = ifElse(4, 6);
     expect(first).which.is.a("number").eq(4);

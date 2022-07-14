@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { whileLoop, doWhileLoop, forLoop, recursion } = require("./index");
 
-describe.only("Loops suite", () => {
+describe("Loops suite", () => {
   it("While loop.", async () => {
     const arr = whileLoop();
     expect(arr).which.is.a("Array").eql([5, 4, 3, 2, 1]);

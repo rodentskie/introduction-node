@@ -1,4 +1,4 @@
-const { expect, assert } = require("chai");
+const { expect } = require("chai");
 const {
   getName,
   getFavoriteFood,
@@ -10,7 +10,7 @@ const {
   accessProperty,
 } = require("./index");
 
-describe.only("Object suite", () => {
+describe("Object suite", () => {
   it("Get name.", async () => {
     const name = getName();
     expect(name).which.is.a("string").eq("Ben Walter");
